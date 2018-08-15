@@ -34,7 +34,7 @@ statemon_G = b2.StateMonitor(G, 'v', record=True)
 net = b2.Network()
 net.add(G)
 net.add(statemon_G)
-net.run(10*ms)
+net.run(10*b2.ms)
 
 # run(10*ms)
 # fig,ax = plt.subplots()
